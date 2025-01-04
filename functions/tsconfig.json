@@ -1,23 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    // "module": "NodeNext",
+    "module": "NodeNext",
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
     "moduleResolution": "nodenext",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
-    // "outDir": "lib",
-    "outDir": "./lib",
-    "rootDir": "./src",
+    "outDir": "lib",
     "sourceMap": true,
-    "jsx": "react",
-    "strict": true
-    // "target": "es2017"
+    "strict": true,
+    "target": "es2017"
   },
   "compileOnSave": true,
-  // "include": ["src/**/*"]
-  "include": ["src/**/*.ts", "src/**/*.tsx"]
+  "include": [
+    "src"
+  ]
 }
