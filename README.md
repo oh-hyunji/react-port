@@ -44,32 +44,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-# 포트폴리오 폴더 구조의 방향성 
-## 블로그 형식의 포트폴리오 제작시
-
-src/
-├── assets/ # 이미지, 아이콘 등
-│ └── images/ # 이미지
-│ └── styles/ # 공통 스타일
-├── components/ # 재사용 가능한 UI 컴포넌트
-│ └── Header.tsx
-│ └── PostCard.tsx
-│ └── Button.tsx
-│ └── MarkdownRenderer.tsx # 마크다운 렌더링 컴포넌트
-├── pages/ # 각 페이지 컴포넌트
-│ └── Home.tsx # 홈 페이지
-│ └── PostDetail.tsx # 게시글 상세 페이지
-│ └── WritePost.tsx # 게시글 작성 페이지
-│ └── NotFound.tsx # 404 페이지
-├── services/ # API 호출
-│ └── postService.ts # 게시글 관련 API
-├── types/ # 타입 정의
-│ └── post.d.ts # 게시글 타입
-│ └── comment.d.ts # 댓글 타입
-├── utils/ # 유틸리티 함수
-│ └── formatDate.ts # 날짜 형식 변환 함수
-├── App.tsx # 루트 컴포넌트
-├── index.tsx # 엔트리 포인트
-└── routes/ # 라우팅
-└── AppRouter.tsx # 라우터 설정
