@@ -45,7 +45,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# 포트폴리오 폴더 구조의 방향성 / EX : 블로그 형식의 포트폴리오 제작시
+# 포트폴리오 폴더 구조의 방향성 
+## 블로그 형식의 포트폴리오 제작시
 
 src/
 ├── assets/ # 이미지, 아이콘 등
